@@ -15,10 +15,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Character
+  - Obstacle
+  - Bullet
+  - Platform
   - 
   - 
   - 
