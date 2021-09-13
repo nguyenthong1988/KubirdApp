@@ -26,5 +26,15 @@ namespace Kubird
         {
 
         }
+
+        private void OnTriggerEnter2D(Collider2D collider)
+        {
+            HitCheck(collider);
+        }
+
+        private void HitCheck(Collider2D collider)
+        {
+            
+        }
     }
 }

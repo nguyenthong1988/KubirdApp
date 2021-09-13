@@ -39,15 +39,17 @@ MonoBehaviour:
   CurrentGraph: {fileID: 11400000, guid: 9e528ba266ed32943a98e4d89ff4845c, type: 2}
   RecentlyOpenedGraphs:
   - {fileID: 11400000, guid: 9e528ba266ed32943a98e4d89ff4845c, type: 2}
-  CopiedNodes: []
+  CopiedNodes:
+  - {fileID: -7519337260337222071, guid: 9e528ba266ed32943a98e4d89ff4845c, type: 2}
   DeletedNodes: []
-  SelectedNodes: []
+  SelectedNodes:
+  - {fileID: 9084670906515052951, guid: 9e528ba266ed32943a98e4d89ff4845c, type: 2}
   GraphTabs:
   - IsRootTab: 1
     Graph: {fileID: 11400000, guid: 9e528ba266ed32943a98e4d89ff4845c, type: 2}
     SubGraphNode: {fileID: 0}
-    Zoom: 0.6
-    PanOffset: {x: 560.6667, y: 220.96669}
+    Zoom: 0.9
+    PanOffset: {x: 700.62854, y: 210.30655}
     SelectedNodes: []
     DeletedNodes: []
   CurrentView: 1

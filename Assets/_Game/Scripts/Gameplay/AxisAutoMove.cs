@@ -27,7 +27,7 @@ namespace Kubird
             Movement();
             if (transform.position.x < -m_WorldScreenSize.x)
             {
-                PoolBoss.DespawnAllOfPrefab(transform);
+                PoolBoss.Despawn(transform);
             }
         }
 
