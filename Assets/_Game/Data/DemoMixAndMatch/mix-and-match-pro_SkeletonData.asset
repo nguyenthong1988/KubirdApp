@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1b3b4b945939a54ea0b23d3396115fb, type: 3}
-  m_Name: New SkeletonDataAsset
+  m_Name: mix-and-match-pro_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: 50d49438010bab6489e35b083b1dd152, type: 2}
+  - {fileID: 11400000, guid: 4bf2b9eee0ff79c4387783e026f30977, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: d03be9910c4365249a80ee67a4d7fde2, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 638dd0cf3302a4e49813b21f0b54d072, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
     requiresBlendModeMaterials: 0
-    applyAdditiveMaterial: 0
+    applyAdditiveMaterial: 1
     additiveMaterials: []
     multiplyMaterials: []
     screenMaterials: []
@@ -27,5 +27,5 @@ MonoBehaviour:
   fromAnimation: []
   toAnimation: []
   duration: []
-  defaultMix: 0
+  defaultMix: 0.2
   controller: {fileID: 0}

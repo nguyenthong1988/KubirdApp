@@ -162,7 +162,7 @@ MonoBehaviour:
   m_minimumOutputSocketsCount: 1
   m_graphId: 8f1d6e8d-d5b4-4e47-97a5-4677bca60e2b
   m_id: 8c41f2af-a152-4a59-93db-cc62e1d09bba
-  m_name: UIView-Home
+  m_name: UI Home
   m_notes: 
   m_onEnterShowViews:
   - Category: General
