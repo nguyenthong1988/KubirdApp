@@ -217,8 +217,8 @@ Canvas:
   m_GameObject: {fileID: 1020793400}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1989297038}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -638,10 +638,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIView-Ranks
       objectReference: {fileID: 0}
-    - target: {fileID: 33096319281858366, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 33096319281858367, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -708,11 +704,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 33096319281858367, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -94
       objectReference: {fileID: 0}
     - target: {fileID: 33096319281858367, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 682
       objectReference: {fileID: 0}
     - target: {fileID: 33096319281858367, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -726,14 +722,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 33096319281858754, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
-      propertyPath: HideBehavior.InstantAnimation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 33096319281858754, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
-      propertyPath: ShowBehavior.InstantAnimation
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
 --- !u!1001 &2621095948295474832
@@ -746,10 +734,6 @@ PrefabInstance:
     - target: {fileID: 2621095949361457928, guid: 41055d826a9772341b9423f531630a8e, type: 3}
       propertyPath: m_Name
       value: UIView-Settings
-      objectReference: {fileID: 0}
-    - target: {fileID: 2621095949361457928, guid: 41055d826a9772341b9423f531630a8e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2621095949361457929, guid: 41055d826a9772341b9423f531630a8e, type: 3}
       propertyPath: m_Pivot.x
@@ -817,11 +801,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2621095949361457929, guid: 41055d826a9772341b9423f531630a8e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 962
       objectReference: {fileID: 0}
     - target: {fileID: 2621095949361457929, guid: 41055d826a9772341b9423f531630a8e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 682
       objectReference: {fileID: 0}
     - target: {fileID: 2621095949361457929, guid: 41055d826a9772341b9423f531630a8e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -834,14 +818,6 @@ PrefabInstance:
     - target: {fileID: 2621095949361457929, guid: 41055d826a9772341b9423f531630a8e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2621095949361457932, guid: 41055d826a9772341b9423f531630a8e, type: 3}
-      propertyPath: HideBehavior.InstantAnimation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2621095949361457932, guid: 41055d826a9772341b9423f531630a8e, type: 3}
-      propertyPath: ShowBehavior.InstantAnimation
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41055d826a9772341b9423f531630a8e, type: 3}
@@ -909,22 +885,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1020793405}
     m_Modifications:
-    - target: {fileID: 1768524728, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
-      propertyPath: OnClick.OnTrigger.GameEvents.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1768524728, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
-      propertyPath: OnClick.OnTrigger.GameEvents.Array.data[0]
-      value: GotoSettings
-      objectReference: {fileID: 0}
-    - target: {fileID: 1859286797, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
-      propertyPath: OnClick.OnTrigger.GameEvents.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1859286797, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
-      propertyPath: OnClick.OnTrigger.GameEvents.Array.data[0]
-      value: GotoRanks
-      objectReference: {fileID: 0}
     - target: {fileID: 8564965657366146273, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -991,11 +951,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8564965657366146273, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -1265
       objectReference: {fileID: 0}
     - target: {fileID: 8564965657366146273, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 669
       objectReference: {fileID: 0}
     - target: {fileID: 8564965657366146273, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1012,30 +972,6 @@ PrefabInstance:
     - target: {fileID: 8564965657366146274, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
       propertyPath: m_Name
       value: UIView-Home
-      objectReference: {fileID: 0}
-    - target: {fileID: 8564965657366146274, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8564965657366146286, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
-      propertyPath: ShowBehavior.PresetName
-      value: Default
-      objectReference: {fileID: 0}
-    - target: {fileID: 8564965657366146286, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
-      propertyPath: ShowBehavior.PresetCategory
-      value: Uncategorized
-      objectReference: {fileID: 0}
-    - target: {fileID: 8564965657366146286, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
-      propertyPath: HideBehavior.InstantAnimation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8564965657366146286, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
-      propertyPath: ShowBehavior.InstantAnimation
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8564965657366146286, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
-      propertyPath: ShowBehavior.Animation.Move.Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e75fc4b4e7302ac43acb61741043cbf1, type: 3}
