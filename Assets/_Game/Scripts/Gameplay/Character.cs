@@ -9,6 +9,9 @@ namespace Kubird
         public int level;
         public int experience;
 
+        [Header("Reference")]
+        [SerializeField] ModelController m_ModelController;
+
         protected Health m_Health;
         protected Camera m_MainCamera;
 
@@ -22,9 +25,9 @@ namespace Kubird
             m_MainCamera = Camera.main;
         }
 
-        private void Update()
+        public void Build()
         {
-
+            m_ModelController.SetSkin((ColorFamily)PlayerPrefs.GetInt("_save_skin_index", 0));
         }
 
         private void OnTriggerEnter2D(Collider2D collider)
@@ -34,7 +37,9 @@ namespace Kubird
 
         private void HitCheck(Collider2D collider)
         {
-            
+
         }
+
+        public ModelController modelController => modelController;
     }
 }

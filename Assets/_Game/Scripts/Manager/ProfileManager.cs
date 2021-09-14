@@ -60,6 +60,6 @@ namespace Kubird
             string profileDataString = JsonUtility.ToJson(m_ProfileData);
             PlayerPrefs.SetString(ProfileSaveKey, profileDataString);
             PlayerPrefs.Save();
-        }    
+        }
     }
 }

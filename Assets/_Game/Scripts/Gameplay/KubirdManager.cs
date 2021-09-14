@@ -11,6 +11,8 @@ namespace Kubird
 
         public static KubirdManager Instance;
 
+        [SerializeField] Character m_Character;
+
         public int score { get; protected set; } = 0;
 
         private void Awake()
@@ -21,11 +23,19 @@ namespace Kubird
         private void Start()
         {
             KubirdEvent.OnObstacleDamaged += OnObstacleDamaged;
+            StartCoroutine(CorInitCharacter());
         }
 
         private void OnDestroy()
         {
             KubirdEvent.OnObstacleDamaged -= OnObstacleDamaged;
+        }
+
+        private IEnumerator CorInitCharacter()
+        {
+            yield return new WaitUntil(() => ProfileManager.Instance && ProfileManager.Instance.initialized);
+
+            m_Character.Build();
         }
 
         public void OnObstacleDamaged(Obstacle obstacle)

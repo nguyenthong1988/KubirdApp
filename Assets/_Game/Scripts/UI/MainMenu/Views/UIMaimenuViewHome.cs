@@ -19,14 +19,22 @@ namespace Kubird
         {
             m_SkinIndex++;
             m_SkinIndex = Mathf.Clamp(m_SkinIndex, 0, 5);
-            m_ModelController.ChangeSkin((ColorFamily)m_SkinIndex);
+            m_ModelController.SetSkin((ColorFamily)m_SkinIndex);
+            SaveSkinIndex();
         }
 
         public void OnButtonPrevSkin()
         {
             m_SkinIndex--;
             m_SkinIndex = Mathf.Clamp(m_SkinIndex, 0, 5);
-            m_ModelController.ChangeSkin((ColorFamily)m_SkinIndex);
+            m_ModelController.SetSkin((ColorFamily)m_SkinIndex);
+            SaveSkinIndex();
+        }
+
+        private void SaveSkinIndex()
+        {
+            PlayerPrefs.SetInt("_save_skin_index", m_SkinIndex);
+            PlayerPrefs.Save();
         }
     }
 }

@@ -9,7 +9,7 @@ namespace Kubird
     {
         [SerializeField] SkeletonAnimation m_Animator;
 
-        public void ChangeSkin(ColorFamily colorFamily)
+        public void SetSkin(ColorFamily colorFamily)
         {
             string skinId = SkinDataDict.TranslateSkinId(colorFamily);
             m_Animator.skeleton.SetSkin(skinId);

@@ -15,6 +15,8 @@ namespace Kubird
 
         public static AppManager Instance;
 
+        [SerializeField] ManagerDict m_ManagerDict;
+
         public bool initialized { get; protected set; } = false;
 
         private void Awake()
@@ -30,6 +32,16 @@ namespace Kubird
                 Destroy(this.gameObject);
                 return;
             }
+
+            foreach (var managerPrefab in m_ManagerDict.managerDict)
+            {
+                GameObject managerObject = Instantiate(managerPrefab);
+                managerObject.transform.parent = transform;
+            }
+
+            DontDestroyOnLoad(gameObject);
+
+            initialized = true;
         }
 
         public void LoadScene(SceneType sceneType)
