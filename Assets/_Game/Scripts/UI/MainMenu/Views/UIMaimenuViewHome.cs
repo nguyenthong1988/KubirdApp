@@ -6,9 +6,27 @@ namespace Kubird
 {
     public class UIMaimenuViewHome : MonoBehaviour
     {
+        [SerializeField] ModelController m_ModelController;
+
+        private int m_SkinIndex = 0;
+
         public void OnButtonEndless()
         {
             AppManager.Instance.LoadScene(SceneType.KubirdEndless);
+        }
+
+        public void OnButtonNextSkin()
+        {
+            m_SkinIndex++;
+            m_SkinIndex = Mathf.Clamp(m_SkinIndex, 0, 5);
+            m_ModelController.ChangeSkin((ColorFamily)m_SkinIndex);
+        }
+
+        public void OnButtonPrevSkin()
+        {
+            m_SkinIndex--;
+            m_SkinIndex = Mathf.Clamp(m_SkinIndex, 0, 5);
+            m_ModelController.ChangeSkin((ColorFamily)m_SkinIndex);
         }
     }
 }
