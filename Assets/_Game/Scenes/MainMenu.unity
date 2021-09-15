@@ -325,10 +325,54 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1768524728, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: ButtonName
+      value: Setting
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768524728, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: OnClick.TriggerEventsAfterAnimation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768524728, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: OnClick.OnTrigger.GameEvents.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768524728, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: OnClick.OnTrigger.Event.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768524728, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: OnClick.OnTrigger.Event.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1768524728, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: OnClick.OnTrigger.Event.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859286797, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: ClickMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859286797, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: ButtonName
+      value: Ranking
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859286797, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: OnSelected.Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1859286797, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: AllowMultipleClicks
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5290979049136256949, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
       propertyPath: m_ModelController
       value: 
       objectReference: {fileID: 1791733938}
+    - target: {fileID: 5637895403503883371, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
+      propertyPath: OnClick.TriggerEventsAfterAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8564965657366146273, guid: 6bd818793b202e542893251e5c2fc1a0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -764,7 +808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 33096319281858367, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1664
+      value: -1723
       objectReference: {fileID: 0}
     - target: {fileID: 33096319281858367, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
