@@ -7,7 +7,6 @@ using Newtonsoft.Json.Linq;
 
 namespace Kubird
 {
-
     public class DatabaseManager : MonoBehaviour
     {
         private static readonly string LocalSkillDatabasePath = "JsonData/SkillMap";
@@ -15,7 +14,13 @@ namespace Kubird
         public static DatabaseManager Instance = null;
         public bool initialized { get; protected set; } = false;
 
+        [HideInInspector]
         public List<SkillData> skillDataDict;
+        [HideInInspector]
+        public List<BodyData> bodyDataDict;
+
+        [Header("Reference")]
+        public BodyPartDataDict bodyPartDataDict;
 
         private void Awake()
         {
@@ -32,6 +37,11 @@ namespace Kubird
             LoadDatabaseSkill();
 
             yield return new WaitUntil(() => skillDataDict != null);
+
+            LoadDatabaseBody();
+
+            yield return new WaitUntil(() => bodyDataDict != null);
+
             initialized = true;
         }
 
@@ -46,6 +56,18 @@ namespace Kubird
                 {
                     skillData.Validate();
                 }
+            }
+
+            Resources.UnloadAsset(textAsset);
+        }
+
+        private void LoadDatabaseBody()
+        {
+            var textAsset = Resources.Load<TextAsset>("JsonData/BodyMap");
+            if (textAsset != null)
+            {
+                string rawData = textAsset.text;
+                bodyDataDict = JsonConvert.DeserializeObject<List<BodyData>>(rawData);
             }
 
             Resources.UnloadAsset(textAsset);

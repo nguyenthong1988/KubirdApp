@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b35e8ac21bde641992ca7d4c4077cc, type: 3}
+  m_Name: BodyParDataDict
+  m_EditorClassIdentifier: 
+  dataDict:
+  - category: 0
+    list:
+    - BD0001
+    - BD0002
+    - BD0003
+    - BD0004
+    - BD0005
+  - category: 1
+    list:
+    - HN0001
+    - HN0002
+    - HN0003
+    - HN0004
+    - HN0005
+    - HN0006
+    - HN0007
+    - HN0008
+    - HN0009
+    - HN0010
+    - HN0011
+    - HN0012
+    - HN0013
+    - HN0014
+    - HN0015
+  - category: 2
+    list:
+    - RT0001
+    - RT0002
+    - RT0003
+    - RT0004
+    - RT0005
+    - RT0006
+    - RT0007
+    - RT0008
+    - RT0009
+    - RT0010
+    - RT0011
+    - RT0012
+    - RT0013
+    - RT0014
+    - RT0015
+  - category: 3
+    list:
+    - TL0001
+    - TL0002
+    - TL0003
+    - TL0004
+    - TL0005
+    - TL0006
+    - TL0007
+    - TL0008
+    - TL0009
+    - TL0010
+    - TL0011
+    - TL0012
+    - TL0013
+    - TL0014
+    - TL0015
+  - category: 4
+    list:
+    - WG0001
+    - WG0002
+    - WG0003
+    - WG0004
+    - WG0005
+    - WG0006
+    - WG0007
+    - WG0008
+    - WG0009
+    - WG0010
+    - WG0011
+    - WG0012
+    - WG0013
+    - WG0014
+    - WG0015
+  - category: 5
+    list:
+    - DC0001
+    - DC0002
+    - DC0003
+    - DC0004
+    - DC0005
+    - DC0006
+    - DC0007
+    - DC0008
+    - DC0009
+    - DC0010
+    - DC0011
+    - DC0012
+    - DC0013
+    - DC0014
+    - DC0015
+  - category: 6
+    list:
+    - FT0001
+    - FT0002
+    - FT0003
+    - FT0004
+    - FT0005
+  - category: 7
+    list:
+    - EY0001
+    - EY0002
+    - EY0003
+    - EY0004
+    - EY0005
+    - EY0006
+    - EY0007
+    - EY0008
+    - EY0009
+    - EY0010
+    - EY0011
+    - EY0012
+    - EY0013
+    - EY0014
+    - EY0015
