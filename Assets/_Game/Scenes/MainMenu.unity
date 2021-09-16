@@ -808,7 +808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 33096319281858367, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1723
+      value: -1731
       objectReference: {fileID: 0}
     - target: {fileID: 33096319281858367, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -836,6 +836,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
+--- !u!1 &33096319577092289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 33096319281858366, guid: b320559d5d2bc9c449cc6233068cbad3, type: 3}
+  m_PrefabInstance: {fileID: 33096319577092288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &33096319577092290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33096319577092289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 1
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1001 &1878980940467438951
 PrefabInstance:
   m_ObjectHideFlags: 0

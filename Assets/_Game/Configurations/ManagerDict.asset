@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   managerDict:
   - {fileID: 3366663286261714060, guid: d41cbb89ef68f0445a7205cb8d060733, type: 3}
+  - {fileID: 6070041339855372451, guid: 9152a26499062f74fa7680c95879d534, type: 3}
